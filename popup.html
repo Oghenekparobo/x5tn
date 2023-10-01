@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpMeHelpMeEdeyCarryMeGoWhereINoKnow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-header">
+        <div class="title">
+          <img src="./img/Layer.png" alt="extension icons" />
+          <span>HelpMeOut</span>
+        </div>
+
+        <div class="actions cancel-btn" id="stop_video">
+          <img
+            src="./img/setting-2.png"
+            alt="settings-icon"
+            class="act cancel-btn"
+          /><span class="act act-x cancel-btn">x</span>
+        </div>
+      </div>
+
+      <div class="wrapper-desc">
+        <p>This extension helps you record and share help videos with ease.</p>
+      </div>
+
+      <div class="screen-size__option">
+        <div class="fullscreen">
+          <img src="./img/monitor.png" alt="monitor" />
+          <p>fullscreen</p>
+        </div>
+        <div class="current-tab">
+          <img src="./img/copy.png" alt="copy" />
+          <p>current tab</p>
+        </div>
+      </div>
+
+      <!-- .toggle-options -->
+      <div class="media">
+        <div class="type">
+          <img src="./img/video-camera.png" alt="video camera" />
+          <p>Camera</p>
+        </div>
+        <div class="toggle" id="camera-toggle">
+          <div class="toggle-button"></div>
+        </div>
+      </div>
+      <div class="media">
+        <div class="type">
+          <img src="./img/microphone.png" alt="microphone" />
+          <p>Video</p>
+        </div>
+        <div class="toggle" id="video-toggle">
+          <div class="toggle-button"></div>
+        </div>
+      </div>
+
+      <!-- .record btn -->
+      <button class="record-btn" id="start_video">Start Recording</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
